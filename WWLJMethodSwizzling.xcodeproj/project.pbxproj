@@ -1,0 +1,317 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6C10F0C01BEC9598009486CB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C10F0BF1BEC9598009486CB /* main.m */; };
+		6C10F0C31BEC9598009486CB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C10F0C21BEC9598009486CB /* AppDelegate.m */; };
+		6C10F0C61BEC9598009486CB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C10F0C51BEC9598009486CB /* ViewController.m */; };
+		6C10F0C91BEC9598009486CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C10F0C71BEC9598009486CB /* Main.storyboard */; };
+		6C10F0CB1BEC9598009486CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C10F0CA1BEC9598009486CB /* Assets.xcassets */; };
+		6C10F0CE1BEC9598009486CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C10F0CC1BEC9598009486CB /* LaunchScreen.storyboard */; };
+		6C10F0DA1BEC95F9009486CB /* UIViewController+AOP.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C10F0D91BEC95F9009486CB /* UIViewController+AOP.m */; settings = {ASSET_TAGS = (); }; };
+		6C10F0DD1BEC9A52009486CB /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C10F0DC1BEC9A52009486CB /* SecondViewController.m */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6C10F0BB1BEC9598009486CB /* WWLJMethodSwizzling.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WWLJMethodSwizzling.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C10F0BF1BEC9598009486CB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6C10F0C11BEC9598009486CB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6C10F0C21BEC9598009486CB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6C10F0C41BEC9598009486CB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6C10F0C51BEC9598009486CB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6C10F0C81BEC9598009486CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6C10F0CA1BEC9598009486CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6C10F0CD1BEC9598009486CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6C10F0CF1BEC9598009486CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C10F0D81BEC95F9009486CB /* UIViewController+AOP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+AOP.h"; sourceTree = "<group>"; };
+		6C10F0D91BEC95F9009486CB /* UIViewController+AOP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+AOP.m"; sourceTree = "<group>"; };
+		6C10F0DB1BEC9A52009486CB /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		6C10F0DC1BEC9A52009486CB /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6C10F0B81BEC9598009486CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6C10F0B21BEC9598009486CB = {
+			isa = PBXGroup;
+			children = (
+				6C10F0BD1BEC9598009486CB /* WWLJMethodSwizzling */,
+				6C10F0BC1BEC9598009486CB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6C10F0BC1BEC9598009486CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6C10F0BB1BEC9598009486CB /* WWLJMethodSwizzling.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6C10F0BD1BEC9598009486CB /* WWLJMethodSwizzling */ = {
+			isa = PBXGroup;
+			children = (
+				6C10F0C11BEC9598009486CB /* AppDelegate.h */,
+				6C10F0C21BEC9598009486CB /* AppDelegate.m */,
+				6C10F0C41BEC9598009486CB /* ViewController.h */,
+				6C10F0C51BEC9598009486CB /* ViewController.m */,
+				6C10F0DB1BEC9A52009486CB /* SecondViewController.h */,
+				6C10F0DC1BEC9A52009486CB /* SecondViewController.m */,
+				6C10F0D81BEC95F9009486CB /* UIViewController+AOP.h */,
+				6C10F0D91BEC95F9009486CB /* UIViewController+AOP.m */,
+				6C10F0C71BEC9598009486CB /* Main.storyboard */,
+				6C10F0CA1BEC9598009486CB /* Assets.xcassets */,
+				6C10F0CC1BEC9598009486CB /* LaunchScreen.storyboard */,
+				6C10F0CF1BEC9598009486CB /* Info.plist */,
+				6C10F0BE1BEC9598009486CB /* Supporting Files */,
+			);
+			path = WWLJMethodSwizzling;
+			sourceTree = "<group>";
+		};
+		6C10F0BE1BEC9598009486CB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6C10F0BF1BEC9598009486CB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6C10F0BA1BEC9598009486CB /* WWLJMethodSwizzling */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C10F0D21BEC9598009486CB /* Build configuration list for PBXNativeTarget "WWLJMethodSwizzling" */;
+			buildPhases = (
+				6C10F0B71BEC9598009486CB /* Sources */,
+				6C10F0B81BEC9598009486CB /* Frameworks */,
+				6C10F0B91BEC9598009486CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WWLJMethodSwizzling;
+			productName = WWLJMethodSwizzling;
+			productReference = 6C10F0BB1BEC9598009486CB /* WWLJMethodSwizzling.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6C10F0B31BEC9598009486CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = iShareme;
+				TargetAttributes = {
+					6C10F0BA1BEC9598009486CB = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = 6C10F0B61BEC9598009486CB /* Build configuration list for PBXProject "WWLJMethodSwizzling" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6C10F0B21BEC9598009486CB;
+			productRefGroup = 6C10F0BC1BEC9598009486CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6C10F0BA1BEC9598009486CB /* WWLJMethodSwizzling */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6C10F0B91BEC9598009486CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C10F0CE1BEC9598009486CB /* LaunchScreen.storyboard in Resources */,
+				6C10F0CB1BEC9598009486CB /* Assets.xcassets in Resources */,
+				6C10F0C91BEC9598009486CB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6C10F0B71BEC9598009486CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C10F0DD1BEC9A52009486CB /* SecondViewController.m in Sources */,
+				6C10F0C61BEC9598009486CB /* ViewController.m in Sources */,
+				6C10F0DA1BEC95F9009486CB /* UIViewController+AOP.m in Sources */,
+				6C10F0C31BEC9598009486CB /* AppDelegate.m in Sources */,
+				6C10F0C01BEC9598009486CB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6C10F0C71BEC9598009486CB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C10F0C81BEC9598009486CB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6C10F0CC1BEC9598009486CB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C10F0CD1BEC9598009486CB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6C10F0D01BEC9598009486CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6C10F0D11BEC9598009486CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6C10F0D31BEC9598009486CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WWLJMethodSwizzling/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iShareme.www.WWLJMethodSwizzling;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6C10F0D41BEC9598009486CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WWLJMethodSwizzling/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iShareme.www.WWLJMethodSwizzling;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6C10F0B61BEC9598009486CB /* Build configuration list for PBXProject "WWLJMethodSwizzling" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C10F0D01BEC9598009486CB /* Debug */,
+				6C10F0D11BEC9598009486CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C10F0D21BEC9598009486CB /* Build configuration list for PBXNativeTarget "WWLJMethodSwizzling" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C10F0D31BEC9598009486CB /* Debug */,
+				6C10F0D41BEC9598009486CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6C10F0B31BEC9598009486CB /* Project object */;
+}
